@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/jpeg" href="/Unbenannt.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js" defer></script>
+    <title>Dreigliederung | TagDreigliederung</title>
+ 
+</head>
+
+<body  onload="setTimeout(function(){
+   document.getElementsByClassName('loader')[0].style.display='none';
+  document.getElementById('load').style.display='block';
+  if(window.innerWidth>=855){
+    document.getElementsByClassName('nav')[0].style.display='block';
+  }
+ 
+}, 1000);">
+    <div class="backdrop"></div>
+    
+    <div class="loader">
+      <div class="loader-wheel"></div>
+      <div class="loader-text"></div>
+    </div>
+    <div style="display: none;" class="nav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/termine.html">Termine</a></li>
+        <li><a href="/dreigliederung.html">Dreigliederung</a></li>
+        <li><a href="/downloads.html">Downloads</a></li>
+      </ul>
+  </div>
+
+    <div style="display: none;" id="load">
+    <button id="side-menu-toggle"> <i class="fa fa-bars"></i></button>
+   
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__item-list">
+          <li class="mobile-nav__item">
+            <a class="<%= path === '/products' ? 'active' : '' %>"
+               href="/index.html">Home</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="<%= path === '/about' ? 'active' : '' %>" href="/termine.html">Termine</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="<%= path === '/' ? 'active' : '' %>" href="/dreigliederung.html">Dreigliederung</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="<%= path === '/products' ? 'active' : '' %>"
+               href="/downloads.html">Downloads</a>
+          </li>
+         
+        
+          
+         
+        </ul>
+      </nav>
+     
+   
+    <div class="content"> 
+        <div class="box" id="info">
+            <div id="links">
+               <h2 id="hinfo">Links zu Informationen zur Sozialen Dreigliederung </h2>
+                
+               <a href="http://socialnew.goetheanum.org/de/home-de/">
+        Sozialwissenschftliche Sektion Goetheanum</a> <br><br>
+             
+               <a href="https://www.dreigliederung.de/">Institut für soziale Dreigliederung</a><br><br>
+               <a href="https://sozialedreigliederung.org/">Bündnis Soziale Dreigliederung</a><br><br>
+               <a href="https://anthrowiki.at/Dreigliederung_des_sozialen_Organismus" > Dreigliederung des sozialen Orgasnismus</a><br><br>
+               <a href="https://humboldt-haus.de/">Humboldt Haus</a><br><br>
+               <a href="https://wende.jetzt/">Wende jetzt!</a><br><br>
+               <a href="http://alternativ3gliedern.com/">alternativ3gliedern</a><br><br>
+               <a href="https://sffo.net">Seminar für freiheitliche Ordnung e.V.</a><br><br>
+                  <a href="https://filmprojekt.dreigliederung.de/desktop-3-ueber-uns/">Filmprojekt: Zusammenspiel</a><br><br>
+              
+            </div>
+          
+        </div>
+        <br><p id="cp">Filme zur Dreigliederung<b>:</b></p>
+        <div class="responsive-video">
+        <iframe  width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL-PYGqBx3aLkGwLEPdnxw6G4kgI2p3dHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/isYwVQOi7_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe  width="560" height="315" src="https://www.youtube.com/embed/Xq57UR-A9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe  width="560" height="315" src="https://www.youtube.com/embed/fHmIUa1IVvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0zq2cfgxZeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+
+
+        </div>
+    </div>
+    <footer >
+    <div id="footdiv"> 
+        <div>
+        <h2>Unterstützer:</h2>
+        <p > Eos
+         Weltenwandler <br>
+         Partei für Freiheit Gleichheit Brüderlichkeit<br>
+          Musikvereinigung Orpheus <br>
+         Peter  Wassmer
+     </p>
+    </div>
+    <div>
+     <h2>Kontakt:</h2>  
+    <p>
+     tel: 0162/8210908 <br>
+    email: drei.sozial@online.de  
+    <br>
+    </p>
+</div>
+    </div>
+    <div class="inline">&#169; <b> 2023 </b>A. M. O. Janßen | <a href="/impressum.html"><b>impressum</b></a></div>
+</footer>
+</div>
+</body>
+</html>
