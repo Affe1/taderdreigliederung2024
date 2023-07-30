@@ -36,6 +36,9 @@ body{
     margin-top: 50px;
   
 }
+.error{
+ margin: auto;
+}
 
 .title{
   
@@ -411,6 +414,10 @@ body{
     }
     #map img{
       width: 100%;
+    }
+    #footdiv div{
+      margin-right: 30px;
+      margin-left: 30px;
     }
   
     
