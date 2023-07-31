@@ -92,16 +92,7 @@ body{
   padding-top: 10px;
 }
 
-.responsive-video{
- 
-  margin-right: auto;
-  margin-left: auto;
-  
-  
- 
- 
-  
-}
+
 .responsive-video iframe {
   
   max-width: 560px;
@@ -426,7 +417,8 @@ body{
     .responsive-video iframe {
      
       max-height: 260px;
-     
+      padding: 0;
+      padding-top: 20px;
       
      
     }
